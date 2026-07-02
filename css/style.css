@@ -678,6 +678,24 @@ h4 {
   border-top: 1px solid var(--border);
 }
 
+.footer p {
+  margin: 4px 0;
+}
+
+.footer-domain {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.footer-domain a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.footer-domain a:hover {
+  text-decoration: underline;
+}
+
 /* ================= Responsive ================= */
 @media (max-width: 720px) {
   .feature-grid {
